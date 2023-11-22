@@ -7,8 +7,7 @@ go run cmd/server/server.go
 
 Accessing the server (GraphQL Playground)
 - URL: http://localhost:8080/
-- <details open>
-  <summary>Playground commands</summary>
+- Playground commands
 ```
 mutation createCategory {
 	createCategory(input: {name: "Technology", description: "Technology Course"}) {
@@ -68,7 +67,6 @@ query queryCoursesWithCategory {
 	}
 }
 ```
-</details>
 
 Generating GraphQL template project using "gqlgen".
 ```
